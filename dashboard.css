@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    display:flex;
+}
+
+.sidebar{
+    width:250px;
+    height:100vh;
+    background:#2c3e50;
+    padding:15px;
+}
+
+.sidebar h2{
+    color:white;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.sidebar ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.sidebar ul li{
+    margin:3px 0;
+}
+
+.sidebar ul li a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    padding:10px 15px;
+    border-radius:6px;
+    font-size:17px;
+}
+
+.sidebar ul li a:hover{
+    background:#3498db;
+}
+.main-content{
+    flex:1;
+    padding:30px;
+    background:#f4f6f9;
+}
+
+.cards{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:20px;
+}
+
+.card{
+    width:220px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    text-align:center;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h3{
+    color:#2c3e50;
+    margin-bottom:10px;
+}
+
+.card p{
+    font-size:32px;
+    color:#3498db;
+    font-weight:bold;
+}
+
+.sidebar ul li a{
+    text-decoration:none;
+    color:white;
+    display:block;
+}
+
+.sidebar ul li a:hover{
+    color:yellow;
+}
+
+.sidebar a{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:white;
+    text-decoration:none;
+    padding:10px 15px;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.sidebar a:hover{
+    background:#3498db;
+}
+
+.card-link{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.card-link:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-link h3,
+.card-link p{
+    text-decoration: none;
+}
+
+.card a{
+    text-decoration: none;
+    color: inherit;
+}
